@@ -682,7 +682,7 @@ Bolívar Aponte Rolón
 </ul>
 </div>
 </section><section id="bar-plots-2" class="slide level2"><h2>Bar Plots</h2>
-<p>Use <code>coord_flip()</code> to flip x and y axes.</p>
+<p>Use <code>coord_flip()</code> to flip <em>x</em> and <em>y</em> axes.</p>
 <div class="columns">
 <div class="column" style="width:50%;">
 <div class="cell">
@@ -713,7 +713,6 @@ Bolívar Aponte Rolón
 </section><section id="box-plots" class="slide level2"><h2>Box Plots</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p>Mapped data set:</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1"></a><span class="fu">library</span>(palmerpenguins)</span>
 <span id="cb9-2"><a href="#cb9-2"></a><span class="fu">library</span>(ggplot2)</span>
@@ -804,8 +803,7 @@ Bolívar Aponte Rolón
 <span id="cb12-15"><a href="#cb12-15"></a></span>
 <span id="cb12-16"><a href="#cb12-16"></a>  <span class="fu">theme_classic</span>(<span class="at">base_size =</span> <span class="dv">16</span>)<span class="sc">+</span></span>
 <span id="cb12-17"><a href="#cb12-17"></a>  <span class="fu">theme</span>(<span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">color=</span><span class="st">"black"</span>, <span class="at">size =</span> <span class="dv">14</span>, <span class="at">face=</span><span class="st">"bold"</span>)) <span class="sc">+</span></span>
-<span id="cb12-18"><a href="#cb12-18"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"#FF8100"</span>, <span class="st">"#C75BCB"</span>)) <span class="sc">+</span></span>
-<span id="cb12-19"><a href="#cb12-19"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">breaks =</span> <span class="fu">seq</span>(<span class="dv">170</span>, <span class="dv">240</span>, <span class="dv">20</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb12-18"><a href="#cb12-18"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"#FF8100"</span>, <span class="st">"#C75BCB"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section></section><section><section id="facetting-and-scales" class="title-slide slide level1 center"><h1>Facetting and Scales</h1>
 
